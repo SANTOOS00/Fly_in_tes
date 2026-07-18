@@ -1,0 +1,28 @@
+# Theme colours:
+#   - primary
+#   - secondary
+#   - accent
+#   - foreground
+#   - background
+#   - success
+#   - warning
+#   - error
+#   - surface
+#   - panel
+
+Screen {
+	layout: vertical;
+	border: round $primary;
+	content-align: center middle;
+}
+
+TTitle {
+	color: $primary;
+	content-align: center middle;
+}
+
+.tinfo {
+	width: 100%;
+	text-align: center;
+	color: $primary;
+}

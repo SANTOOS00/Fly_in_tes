@@ -1,0 +1,74 @@
+# Theme colours:
+#   - primary
+#   - secondary
+#   - accent
+#   - foreground
+#   - background
+#   - success
+#   - warning
+#   - error
+#   - surface
+#   - panel
+
+# Align:
+# top right bot left 
+
+TMessage {
+	align: center middle;
+}
+
+# #############################################################
+# ################################################# COMMON ####
+.tmessage_layout_base {
+	width: 85;
+	height: 26;
+
+	content-align: center middle;
+	border: round red;
+}
+.tmessage_scroll {
+	height: 12;
+	margin: 0 0 2 0;
+}
+
+.tmessage_label {
+	width: 100%;
+	height: auto;
+
+    text-align: center;
+	content-align: center middle;
+}
+
+.tmessage_button {
+	text-style: bold;
+	color: $background;
+}
+
+# #############################################################
+# ################################################## ERROR ####
+.ttitle_error {
+	margin: 0 0 1 0;
+}
+
+.tmessage_font_error {
+	color: $error;
+}
+
+.tmessage_border_error {
+	border: round $error;
+}
+
+# #############################################################
+# ################################################ SUCCESS ####
+.ttitle_success {
+	# top right bot left 
+	margin: 0 0 1 0;
+}
+
+.tmessage_font_success {
+	color: $success;
+}
+
+.tmessage_border_success {
+	border: round $success;
+}

@@ -1,0 +1,84 @@
+# Theme colours:
+#   - primary
+#   - secondary
+#   - accent
+#   - foreground
+#   - background
+#   - success
+#   - warning
+#   - error
+#   - surface
+#   - panel
+
+TFile {
+	align: center middle;
+}
+
+.tfile_layout {
+	color: $primary;
+	border: round $primary;
+	content-align: center middle;
+
+	width: 80;
+	height: 42;
+	padding: 0 2 2 2;
+}
+
+# #############################################################################
+# ################################################################### HELP ####
+.tfile_help {
+	content-align: center middle;
+	color: $primary;
+	width: 100%;
+	margin: 1 0;
+}
+
+# #############################################################################
+# ################################################################## ERROR ####
+.tfile_hidden {
+	display: none;
+}
+
+.tfile_error {
+	color: $error;
+	border: round $error;
+
+	padding: 1;
+	margin: 9 1 1 1;
+
+	width: 100%;
+	content-align: center middle;
+}
+
+# #############################################################################
+# ################################################################# BUTTON ####
+.tfile_bt_layout {
+	align: center middle;
+}
+
+.tfile_button {
+	margin: 0 5;
+}
+
+# #############################################################################
+# ################################################################### LIST ####
+.tfile_list {
+	background: transparent;
+	align: center middle;
+	margin: 2;
+}
+
+.tfile_item {
+	width: 100%;
+	# height: 3;
+	# color: $primary;
+	content-align: center middle;
+	# border: thick $primary;
+}
+
+# .tfile_item:hover {
+# 	height: 3;
+# 	color: $primary;
+# 	content-align: center middle;
+# 	# border: thick $primary;
+# }
